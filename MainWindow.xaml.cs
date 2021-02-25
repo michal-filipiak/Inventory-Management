@@ -24,5 +24,10 @@ namespace Inventory_Management
         {
             InitializeComponent();
         }
+
+        private void LoginButtonClick(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Logged in");
+        }
     }
 }

@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Inventory_Management"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="Inventory Management" Height="450" Width="800">
+    
+    <StackPanel Orientation ="Vertical" Margin="100" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBox Text="Login"/>
+        <PasswordBox MaxLength="20"/>
+        <Button Click="LoginButtonClick" FontWeight="DemiBold">Login</Button>
+    </StackPanel >
 </Window>
